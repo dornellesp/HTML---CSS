@@ -1,0 +1,39 @@
+/* Código para evitar problemas de caracteres */
+@charset "UTF-8"; 
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100%; */
+}
+
+body {
+    background-image: linear-gradient(to right, #97DEB9, #B3F5BC);
+}
+
+main {
+    background-color: white;
+    /*  width = largula  */
+    border-radius: 10px;
+    /*  border-radius = pontinhas arredondadas */
+    box-shadow: 5px 5px 15px #79b1a7c5;
+    /* box-shadow = sombreamento [parametro 1-lado, parametro 2-abaixo, parametro 3-espalhamento, parametro 4-cor e transparencia] */
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #578079;
+    text-align: center;
+    text-shadow: 1px 1px 2px #3d5a55a1;
+    /* text-shadow = sombreamento [parametro 1-lado, parametro 2-abaixo, parametro 3-espalhamento, parametro 4-cor e transparencia] */
+}
+
+h2 {
+    color: #AADE97;
+    text-shadow: 1px 1px 2px #93be83b2;
+}
+
+p {
+    text-align: justify;
+}
